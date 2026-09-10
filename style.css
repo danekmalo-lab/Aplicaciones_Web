@@ -13,8 +13,9 @@ body {
     background: #111;
     color: #fff;
     text-align: center;
-    padding: 1rem;
-    max-width: 1100px; /* Ancho ampliado para las tarjetas laterales */
+    padding: 1rem 2rem; /* Espacio para que no toque los bordes físicos */
+    width: 100%;
+    max-width: 100%; /* Cambiado de 1100px a 100% para pantalla completa */
     margin: 0 auto;
     min-height: 100vh;
     display: flex;
@@ -51,12 +52,12 @@ nav {
     align-items: flex-start;
     gap: 1.5rem;
     margin: 1.5rem 0;
+    width: 100%;
 }
 
 .contenido-centro {
     flex: 2;
 }
-
 
 .card-promo {
     flex: 1;
@@ -79,7 +80,6 @@ nav {
     line-height: 1.3;
 }
 
-
 .bloque-seccion {
     margin: 1.5rem 0;
 }
@@ -88,14 +88,12 @@ nav {
     margin-bottom: 0.5rem;
 }
 
-
 .card-imagen img, img {
     width: 100%;
     max-width: 800px;
     border-radius: 6px;
     margin: 0.5rem 0;
 }
-
 
 form {
     display: flex;
@@ -129,4 +127,3 @@ footer {
     color: #888;
     padding-top: 1rem;
 }
-
