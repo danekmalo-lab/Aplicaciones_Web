@@ -13,7 +13,7 @@ body {
     background: #111;
     color: #fff;
     text-align: center;
-    padding: 1rem; /* rem para espacios */
+    padding: 1rem;
     max-width: 800px;
     margin: 0 auto;
     min-height: 100vh;
@@ -30,10 +30,15 @@ h1 span {
     color: #e50914;
 }
 
+nav {
+    margin-top: 0.5rem;
+}
+
 .enlace-menu {
     color: #fff;
     margin: 0 0.5rem;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .enlace-menu:hover {
@@ -44,9 +49,14 @@ h1 span {
     margin: 1.5rem 0;
 }
 
-img {
-    width: 200px;
-    border-radius: 4px;
+.bloque-seccion h2 {
+    margin-bottom: 0.5rem;
+}
+
+.card-imagen img, img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 6px;
     margin: 0.5rem 0;
 }
 
@@ -54,14 +64,15 @@ form {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    max-width: 240px;
-    margin: 0 auto;
+    max-width: 280px;
+    margin: 1rem auto 0 auto;
 }
 
 input, button {
-    padding: 0.5rem;
+    padding: 0.6rem;
     border-radius: 4px;
     border: 1px solid #444;
+    font-family: inherit;
 }
 
 button {
@@ -72,6 +83,12 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background: #b80710;
+}
+
 footer {
     font-size: 0.8rem;
+    color: #888;
+    padding-top: 1rem;
 }
