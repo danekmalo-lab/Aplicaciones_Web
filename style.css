@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Roboto', sans-serif;
     background: #111;
@@ -19,9 +18,7 @@ body {
     justify-content: space-between;
 }
 
-
 header {
-    border-bottom: 2px solid #e50914; /* px para bordes */
     padding-bottom: 0.5rem;
 }
 
@@ -34,7 +31,6 @@ nav a {
     margin: 0 0.5rem;
     text-decoration: none;
 }
-
 
 section {
     margin: 1.5rem 0;
@@ -67,7 +63,6 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
-
 
 footer {
     font-size: 0.8rem;
