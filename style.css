@@ -13,9 +13,9 @@ body {
     background: #111;
     color: #fff;
     text-align: center;
-    padding: 1rem 2rem; /* Espacio para que no toque los bordes físicos */
+    padding: 1rem 2rem;
     width: 100%;
-    max-width: 100%; /* Cambiado de 1100px a 100% para pantalla completa */
+    max-width: 100%;
     margin: 0 auto;
     min-height: 100vh;
     display: flex;
@@ -62,7 +62,7 @@ nav {
 .card-promo {
     flex: 1;
     background: #1e1e1e;
-    border: 1px solid #e50914;
+    border: none; /* Se eliminó el contorno rojo */
     border-radius: 6px;
     padding: 1rem;
     text-align: center;
