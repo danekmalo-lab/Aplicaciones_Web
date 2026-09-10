@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background: #111;
@@ -26,13 +30,17 @@ h1 span {
     color: #e50914;
 }
 
-nav a {
+.enlace-menu {
     color: #fff;
     margin: 0 0.5rem;
     text-decoration: none;
 }
 
-section {
+.enlace-menu:hover {
+    color: #e50914;
+}
+
+.bloque-seccion {
     margin: 1.5rem 0;
 }
 
