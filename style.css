@@ -1,87 +1,74 @@
-
-@import url("https://fonts.googleapis.com/css2?family=Caacupe+One&family=Valley+Sans:wght@400;700&display=swap");
-
-body{
-    background-color: rgb(78, 79, 76);
-    margin: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1{
-    color: rgb(17, 172, 211); /*comentario*/
-    front-size: 9rem;   
-    background-color: rgb(13, 31, 196);
-     font-family: "Valley Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
-h2,h3,h4,h5,h6{
-    color: rgb(22, 181, 230); 
-    front-size: 9rem;   
-    background-color: rgb(19, 31, 212);
-    font-family: "Caacupe One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-/*
-h3{
-    color: rgb(106, 163, 14); 
-    front-size: 9rem;   
-    background-color: rgb(251, 255, 252);
-    font-family: "Caacupe One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-h4{
-    color: rgb(93, 68, 9); 
-    front-size: 9rem;   
-    background-color: rgb(188, 228, 56);
-      font-family: "Caacupe One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-h5{
-    color: rgb(11, 125, 142); 
-    front-size: 9rem;   
-    background-color: rgb(228, 174, 56);
-      font-family: "Caacupe One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-h6{
-    color: rgb(11, 138, 142);
-    front-size: 9rem;   
-    background-color: rgb(225, 230, 226);
-    font-family: "Caacupe One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}*/
-
-p{
-    front-size: 1.5rem;
-}
-
-.flex{
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1rem; /* rem para espacios */
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 }
-.fondoverde{
-    width: 30%;
-    background-color: rgb(0, 255, 0);
-    margin-top: 3rem;
-    padding: 2rem;
+
+
+header {
+    border-bottom: 2px solid #e50914; /* px para bordes */
     padding-bottom: 0.5rem;
-    padding-left: 1.5rem;
-    padding-right: 4rem;
 }
-.fondonaranja{
-    width: 40%;
-    background-color: rgb(255, 123, 0);
+
+h1 span {
+    color: #e50914;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+
+section {
+    margin: 1.5rem 0;
+}
+
+img {
+    width: 200px;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 240px;
+    margin: 0 auto;
+}
+
+input, button {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #444;
+}
+
+button {
+    background: #e50914;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+footer {
+    font-size: 0.8rem;
 }
