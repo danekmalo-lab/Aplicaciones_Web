@@ -27,6 +27,12 @@ header {
     padding-bottom: 0.5rem;
 }
 
+h1 {
+    font-family: "Monofett", monospace;
+    font-size: 3rem; /* Ajusta el tamaño para que luzca bien este estilo de fuente */
+    font-weight: 400;
+}
+
 h1 span {
     color: #e50914;
 }

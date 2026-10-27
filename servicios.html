@@ -1,57 +1,111 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MaloProduction - Servicios de grabación y edición.">
+    <meta name="description" content="Servicios de grabación y edición de MaloProduction.">
     <title>MaloProduction | Servicios</title>
-    <!-- Google Font -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>MALO <span>PRODUCTION</span></h1>
-        <nav>
-            <a href="index.html" class="enlace-menu">Inicio</a>
-            <a href="servicios.html" class="enlace-menu">Servicios</a>
-        </nav>
-    </header>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark mp-nav">
+        <div class="container">
+            <a class="navbar-brand mp-brand" href="index.html">MALO <span>PRODUCTION</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html" aria-current="page">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portafolio.html">Portafolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
 
-    <main class="contenedor-servicios">
-        <!-- Promo Izquierda -->
-        <aside class="card-promo">
-            <h3>🔥 PROMO 20%</h3>
-            <p>Descuento especial en la grabación de tu primer video musical.</p>
+<main class="container py-4">
+    <section class="text-center page-heading mb-4">
+        <p class="eyebrow">LO QUE HACEMOS</p>
+        <h1>Servicios audiovisuales</h1>
+        <p class="lead-text">Opciones para llevar tu proyecto de la idea a la pantalla.</p>
+    </section>
+
+    <div class="row g-4 align-items-stretch">
+        <aside class="col-12 col-lg-3">
+            <div class="promo-card h-100">
+                <p class="promo-label">PROMOCIÓN</p>
+                <h2 class="h4">20% de descuento</h2>
+                <p>Pregunta por la promoción disponible para tu primera producción musical.</p>
+                <a href="contacto.html" class="text-link">Consultar promoción →</a>
+            </div>
         </aside>
 
-        <!-- Contenido Central -->
-        <section class="contenido-centro">
-            <div class="card-imagen">
-                <img src="Imagen/IMG_1253.JPG" alt="Servicios de grabación y edición de video profesional">
-            </div>
+        <section class="col-12 col-lg-6">
+            <div class="content-card h-100">
+                <img src="Imagen/IMG_1288.JPG" class="img-fluid service-image mb-3" alt="Equipo y trabajo de grabación audiovisual">
+                <h2 class="h3">Producción y edición</h2>
+                <p>Trabajamos en la grabación y edición de videos, contenido para redes y proyectos creativos.</p>
 
-            <h2>Puedes contactarnos por..</h2>
-            <form>
-                <input type="text" placeholder="Nombre" required>
-                <input type="email" placeholder="Correo" required>
-                <button type="submit">Enviar</button>
-            </form>
+                <div class="row g-3 mt-2">
+                    <article class="col-12 col-sm-6">
+                        <div class="mini-service h-100">
+                            <h3 class="h6">Grabación</h3>
+                            <p>Planeación de tomas y captura de video.</p>
+                        </div>
+                    </article>
+                    <article class="col-12 col-sm-6">
+                        <div class="mini-service h-100">
+                            <h3 class="h6">Edición</h3>
+                            <p>Montaje, ritmo y acabado visual.</p>
+                        </div>
+                    </article>
+                    <article class="col-12 col-sm-6">
+                        <div class="mini-service h-100">
+                            <h3 class="h6">Video musical</h3>
+                            <p>Contenido visual para artistas.</p>
+                        </div>
+                    </article>
+                    <article class="col-12 col-sm-6">
+                        <div class="mini-service h-100">
+                            <h3 class="h6">Redes sociales</h3>
+                            <p>Videos cortos para plataformas digitales.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <a class="btn btn-rojo mt-3" href="contacto.html">Solicitar información</a>
+            </div>
         </section>
 
-        <!-- Promo Derecha -->
-        <aside class="card-promo">
-            <h3>🎬 PACK - EXPRESS</h3>
-            <p>Edición y renderizado en alta definición en menos de 48 horas.</p>
+        <aside class="col-12 col-lg-3">
+            <div class="promo-card h-100">
+                <p class="promo-label">PACK EXPRESS</p>
+                <h2 class="h4">Edición prioritaria</h2>
+                <p>Consulta disponibilidad para una entrega acelerada de tu proyecto.</p>
+                <a href="contacto.html" class="text-link">Pedir cotización →</a>
+            </div>
         </aside>
-    </main>
+    </div>
+</main>
 
-    <footer>
-        <p>&copy; 2026 MaloProduction</p>
-    </footer>
+<footer class="site-footer mt-auto">
+    <div class="container"><p class="mb-0">© 2026 MaloProduction · Producción audiovisual</p></div>
+</footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script.js"></script>
 </body>
 </html>
